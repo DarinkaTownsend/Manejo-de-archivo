@@ -11,7 +11,7 @@ import java.util.ArrayList;
  * @author darin
  */
 public class Figuras {
-
+    
     public static void main(String[] args) {
         ArrayList<Circulo> circulos=Archivos.lecturaArchivo("info.txt");
         for(Circulo c: circulos){
@@ -20,4 +20,6 @@ public class Figuras {
         
         Archivos.escribirArchivo(circulos, "cirulos.txt");
     }
+    
+    //comentario
 }
