@@ -1,0 +1,6 @@
+Nombre: circuilo4,Radio: 34.7,Cantidad: 6
+Nombre: circuilo3,Radio: 34.7,Cantidad: 5
+Nombre: circuilo4,Radio: 34.7,Cantidad: 6
+Nombre: circuilo3,Radio: 34.7,Cantidad: 5
+Nombre: circuilo4,Radio: 34.7,Cantidad: 6
+Nombre: circuilo3,Radio: 34.7,Cantidad: 5

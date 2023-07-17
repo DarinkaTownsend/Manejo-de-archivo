@@ -1,0 +1,6 @@
+Figura,cantidad,dimension
+circuilo1,4,34.7
+circuilo1,4,33.7
+circuilo1,4,34.7
+circuilo4,6,34.7
+circuilo3,5,34.7
