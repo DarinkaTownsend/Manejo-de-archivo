@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class Figuras {
     
     public static void main(String[] args) {
-        ArrayList<Circulo> circulos=Archivos.lecturaArchivo("info.txt");
+        ArrayList<Circulo> circulos=Archivos.lecturaArchivo("info.txt");//Fiorella
         for(Circulo c: circulos){
             System.out.println(c);
         }
