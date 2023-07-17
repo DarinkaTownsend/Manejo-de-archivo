@@ -8,7 +8,7 @@ package com.mycompany.figuras;
  *
  * @author darin
  */
-public class Circulo extends Figura{
+public class Circulo implements Figura, Rotable, Dibujable{
    private double radio;
    private String nombre;
    private int cantidad;
@@ -22,6 +22,11 @@ public class Circulo extends Figura{
     public Circulo(double radio) {
         this.radio = radio;
     }
+
+    public Circulo() {
+    }
+    
+    
     
    @Override
     public String toString(){
@@ -57,6 +62,10 @@ public class Circulo extends Figura{
    @Override
     public void calcularArea(){
         
+    }
+    
+    public void dibujar(){
+        System.out.println("Estoy dibujando un circulo");
     }
     
     

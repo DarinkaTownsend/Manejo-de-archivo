@@ -8,7 +8,7 @@ package com.mycompany.figuras;
  *
  * @author darin
  */
-public abstract class Figura {
+public interface Figura {
     
     public abstract void calcularArea();
 }

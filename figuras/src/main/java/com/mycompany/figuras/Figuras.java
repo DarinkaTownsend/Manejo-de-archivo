@@ -13,14 +13,19 @@ import java.util.ArrayList;
 public class Figuras {
     
     public static void main(String[] args) {
-        ArrayList<Circulo> circulos=Archivos.lecturaArchivo("info.txt");//darinka
-        for(Circulo c: circulos){
-            System.out.println(c);
-        }
-        
-        Archivos.escribirArchivo(circulos, "cirulos.txt");
+//        ArrayList<Circulo> circulos=Archivos.lecturaArchivo("info.txt");//darinka
+//        for(Circulo c: circulos){
+//            System.out.println(c);
+//        }
+//        
+//        Archivos.escribirArchivo(circulos, "cirulos.txt");
+          Circulo c= new Circulo();
+          Cuadrado cd= new Cuadrado();
+          c.dibujar();
+          cd.dibujar();
+          
     }
-    
+   
     //comentario
     
     //com
